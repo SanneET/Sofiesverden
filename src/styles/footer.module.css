@@ -1,0 +1,17 @@
+.footer {
+    border-top: 1px solid #000;
+    padding: 1rem 0;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.footer img {
+    max-width: 120px;
+    height: auto;
+}
+
+@media (min-width: 769px) {
+    .footer {
+        display: none;
+    }
+}

@@ -1,0 +1,77 @@
+.quizContainer {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+}
+
+.title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.subtitle {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+.question {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 4rem;
+}
+
+.buttonGroup {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.buttonGroup button {
+  background-color: #F7CC6B;
+  color: black;
+  font-size: 1rem;
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.buttonGroup button:hover {
+  background-color: #caa243;
+}
+
+.progress {
+  margin-top: 2rem;
+  font-size: 0.9rem;
+  color: #444;
+}
+
+.result {
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 2rem;
+}
+/*prøv igen knap*/
+.retryButton {
+  margin-top: 1rem;
+  background-color: #F7CC6B;
+  color: #000;
+  font-size: 1rem;
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+/*figur*/
+.figur img {
+  max-width: 80%;
+  height: auto;
+  margin-top: 1rem;
+}

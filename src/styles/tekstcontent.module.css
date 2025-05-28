@@ -1,0 +1,119 @@
+.sliderContainer {
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  font-family: sans-serif;
+  padding: 1rem;
+}
+
+.textSection {
+  margin-bottom: 1.5rem;
+  text-align: left;
+}
+
+.pageIndicator {
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.buttonGroup {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.sliderButton {
+  background-color: #0d5c63;
+  color: white;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.sliderButton:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.sliderButton:hover:not(:disabled) {
+  background-color: #e4827f;
+}
+
+/* Mobilvisning */
+@media (max-width: 768px) {
+  .sliderContainer {
+    padding: 1rem 0.5rem;
+  }
+
+  .textSection {
+    font-size: 0.95rem;
+  }
+
+  .sliderButton {
+    padding: 0.5rem 1rem;
+    font-size: 0.95rem;
+  }
+
+  .buttonGroup {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}
+
+
+/*her styler vi content siden*/
+.pageWrapper {
+  padding: 2rem 1rem;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  font-weight: normal;
+  margin-bottom: 1.5rem;
+  font-style: italic;
+}
+
+/*knap til quiz*/
+
+.quizButton {
+  margin-top: 2rem;
+  padding: 0.75rem 1.5rem;
+  background-color: #21606E;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.quizButton:hover {
+  background-color: #e4827f;
+}
+
+/* Farver */
+.navyBlue {
+  background-color: #F29491;
+  color: white;
+}
+
+.greenButton {
+  background-color: #F7CC6B;
+  color: #000;
+}
+.figur img{
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+}

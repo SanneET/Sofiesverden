@@ -1,0 +1,11 @@
+/* Gør hele layoutet minimum 100% højde af skærmen */
+.layout-wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Får main til at fylde alt ledigt plads mellem nav og footer */
+.layout-main {
+    flex: 1;
+}
