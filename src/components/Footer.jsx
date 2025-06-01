@@ -1,5 +1,5 @@
-import logo from "../assets/img/gyldendallogo.png"; // erstat med din sti
-import styles from "../styles/footer.module.css"; // hvis du bruger CSS-moduler
+import logo from "../assets/img/gyldendallogo.png"; 
+import styles from "../styles/footer.module.css"; 
 
 function Footer() {
     return (
