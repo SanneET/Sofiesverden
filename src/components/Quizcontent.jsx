@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import style from '../styles/quiz.module.css';
-import figur from '../assets/img/figurquizz.png'; // Import your image here
+import figur from '../assets/img/figurquizz.png'; 
 
 const quizQuestions = [
   {
