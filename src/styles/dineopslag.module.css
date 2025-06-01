@@ -106,7 +106,7 @@ input[type="text"] {
 
 /*styles til sofiespassage siden*/
 .sofietekst {
-  text-align: left; /* standard desktop-stil, hvis du ønsker det */
+  text-align: left; 
   padding: 2rem;
 }
 .buttonsofie {
