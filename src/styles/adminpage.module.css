@@ -1,0 +1,24 @@
+*{
+    font-family: "Open Sans", sans-serif;
+}
+.body {
+    font-family: "Open Sans", sans-serif;
+}
+.button-landing {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.figur img{
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.titleh2 {
+    font-family: "Playpen Sans Arabic", cursive;
+    font-size: 1.2rem;
+    color: #0a0a0a;
+    text-align: center;
+}

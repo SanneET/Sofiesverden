@@ -1,0 +1,92 @@
+@media (max-width: 768px) {
+  .logon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+  }
+
+  .logon-form {
+    background-color: #83C1D7;
+    border-radius: 8px;
+    color: white;
+    text-align: center;
+    width: 100%;
+    max-width: 320px;
+  }
+  .logon-form input {
+     width: 100%;
+    margin-top: 5px;
+    border-radius: 20px;
+    }
+
+  .logon-heading {
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+
+  .logon-icon {
+    height: 60px;
+    margin-bottom: 20px;
+    color: white;
+  }
+
+  .logon-label {
+    display: block;
+    text-align: left;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-size: 0.9rem;
+  }
+
+  .logon-input {
+    width: 100%;
+    border: none;
+    border-radius: 20px;
+    background-color: #337A8B;
+    color: #000000;
+    font-size: 14px;
+    margin-bottom: 10px;
+    padding-top: 3%;
+    padding-bottom: 3%;
+  }
+
+  .logon-button {
+    margin-top: 20px;
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    background-color: #337A8B;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: flex;
+    justify-content: center;
+  }
+
+  .logon-button:hover {
+    background-color: #8ab7c1;
+  }
+
+  .button-container {
+    display: flex;
+    align-items: center;
+  }
+
+  .logon-success {
+    color: #c0ffba;
+    font-size: 0.9rem;
+    margin-top: 10px;
+  }
+
+  .logon-error {
+    color: #ffaaaa;
+    font-size: 0.9rem;
+    margin-top: 10px;
+  }
+}

@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playpen+Sans+Arabic:wght@100..800&display=swap');
+
+@media (max-width: 768px) {
+  
+  .landing-page {
+    text-align: center;
+    padding: 20px;
+    font-family: "Open Sans", sans-serif;
+    }
+
+    .landing-page h1{
+    text-align: center;
+    padding: 20px;
+    font-family: "Playpen Sans Arabic", cursive;
+    }
+    .nav-button {
+    padding: 20px 20px;
+    background-color: #337A8B;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    width: 200px; /* fast bredde */
+    text-align: center; /* centrerer teksten inde i knappen */
+    }
+
+    
+    .button-landing {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap : 20px;
+    margin-top: 50px;
+    }
+    .buttonone {
+     background-color: #F29491;
+    color: #000;
+    }
+
+  .buttontwo {
+    background-color: #F7CC6B;
+    color: #000;
+  }
+
+  .buttonthree {
+    background-color: #83C1D7;
+    color: #000;
+  }
+  
+}
+
